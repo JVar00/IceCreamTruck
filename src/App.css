@@ -1,0 +1,16 @@
+h1 {
+  font-size: 4rem;
+}
+
+body {
+  margin: 0;
+  color: white;
+  overflow-x: hidden;
+}
+
+.sparkles {
+  background-image: url("./assets/sparkles.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-y: center;
+}
