@@ -18,7 +18,7 @@ function Footer() {
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-white sm:text-center ">
           © 2022{" "}
-          <a href="#" className="hover:underline">
+          <a href="" className="hover:underline">
             DeliCream™
           </a>
           . All Rights Reserved.

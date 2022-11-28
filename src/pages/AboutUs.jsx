@@ -40,7 +40,7 @@ function AboutUs() {
       </section>
 
       {/* Imagen y Descripcion */}
-      <div className="relative mx-5">
+      <div className="relative">
         <img src={waveb} className="absolute bottom-0"></img>
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="h-full bg-pinktruck py-32 md:py-60">

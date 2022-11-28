@@ -114,7 +114,7 @@ function Drawer({ open, handleClose, handleOpen }) {
             </div>
             <span className="text-sm text-white sm:text-center">
               © 2022{" "}
-              <a href="#" className="hover:underline">
+              <a href="" className="hover:underline">
                 DeliCream™
               </a>
             </span>
