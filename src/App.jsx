@@ -5,11 +5,7 @@ import NavBar from "./layouts/NavBar";
 
 import AboutUs from "./pages/AboutUs";
 import Catalogue from "./pages/Catalogue";
-
-const Index = () => {
-  return <div className="font-ubuntu"></div>;
-};
-
+import Locations from "./pages/Locations";
 function App() {
   return (
     <BrowserRouter>
@@ -17,9 +13,7 @@ function App() {
         <Route element={<NavBar />}>
           <Route index element={<AboutUs />} />
           <Route path={"/catalogo"} element={<Catalogue />} />
-          <Route path={"/ubicaciones"} element={<Index />} />
-          <Route path={"/contacto"} element={<Index />} />
-          {/* <Route path={"/no"} element={<Login />} /> */}
+          <Route path={"/ubicaciones"} element={<Locations />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -7,9 +7,9 @@ const Catalogue = () => {
   return (
     <main>
       <div className="text-black relative flex justify-center mb-16 ">
-        <div className="flex flex-col justify-center w-full sparkles py-20 mx-10 rounded-lg">
+        <div className="flex flex-col justify-center w-full sparkles py-20 md:mx-10 rounded-lg">
           <h1 className="text-4xl md:text-5xl py-2 font-extrabold font-pacifico text-center text-fuchsia-700 md:mb-8">
-            Nuestos Helados
+            Nuestros Helados
           </h1>
           <div className="text-center flex flex-col text-sm md:text-md">
             <p className="">Te presentamos nuestros helados más populares.</p>
