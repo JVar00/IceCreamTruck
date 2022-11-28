@@ -19,7 +19,7 @@ function Locations() {
         </div>
       </div>
       <section className="text-black relative flex justify-center mb-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full mx-10 justify-center">
+        <div className=" w-full md:w-3/4 mx-10 justify-center">
           {locations.map((element, index) => (
             <Location
               key={index}

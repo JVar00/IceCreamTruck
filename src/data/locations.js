@@ -6,16 +6,16 @@ export default [
   {
     title: "Palmares",
     address: "Ubicación Zona de Palmares",
-    image: { palmares },
+    image: palmares,
   },
   {
     title: "San Ramon",
     address: "Ubicación Zona de San Ramón",
-    image: { sanRamon },
+    image: sanRamon,
   },
   {
     title: "Naranjo",
     address: "Ubicación Zona de Naranjo ",
-    image: { naranjo },
+    image: naranjo,
   },
 ];

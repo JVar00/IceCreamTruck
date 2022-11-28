@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import { NavButton } from "../components/NavItem";
 
 //logo
@@ -32,12 +32,12 @@ const NavBar = () => {
         <ContactUs open={open} handleClose={handleClose} />
         <nav className="relative z-20 bg-gradient-to-r from-pink-500 to-purple-400 px-2 sm:px-4 border-gray-200 py-2.5 rounded-lg mt-5 mx-5">
           <div className="container flex flex-wrap items-center justify-between mx-auto">
-            <a href="" className="flex items-center">
+            <NavLink to={"/"} className="flex items-center">
               <img src={logo} className="h-6 sm:h-9" alt="Delicream Logo" />
               <span className="self-center text-xl font-medium font-pacifico whitespace-nowrap">
                 Deli Cream
               </span>
-            </a>
+            </NavLink>
             <button
               data-collapse-toggle="navbar-default"
               type="button"

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import logo from "../assets/truckpng.png";
 
 function Footer() {
@@ -5,12 +6,12 @@ function Footer() {
     <footer className="p-4 bg-gradient-to-r from-pink-500 to-purple-400 sm:p-6 mx-5 mb-5 rounded-lg">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
-          <a href="" className="flex items-center">
+          <NavLink to={"/"} className="flex items-center">
             <img src={logo} className="h-6 sm:h-9" alt="Delicream Logo" />
             <span className="self-center text-xl font-medium font-pacifico whitespace-nowrap">
               Deli Cream
             </span>
-          </a>
+          </NavLink>
         </div>
       </div>
       <hr className="my-6 border-white sm:mx-auto  lg:my-8" />

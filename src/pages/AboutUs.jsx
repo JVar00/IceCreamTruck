@@ -16,7 +16,7 @@ function AboutUs() {
               className="w-1/3 block mx-auto"
               alt="Delicream Logo"
             />
-            <h1 className="text-3xl md:text-4xl font-extrabold font-pacifico text-pinktruck">
+            <h1 className="text-3xl md:text-4xl font-pacifico text-pinktruck">
               Deli Cream
             </h1>
             <p className="text-2xl font-medium font-pacifico pb-1">
@@ -43,8 +43,8 @@ function AboutUs() {
       <div className="relative mx-5">
         <img src={waveb} className="absolute bottom-0"></img>
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="h-full bg-pinktruck py-32 md:py-80">
-            <div className="text-center md:text-right flex flex-col mx-4 ">
+          <div className="h-full bg-pinktruck py-32 md:py-60">
+            <div className="text-center md:text-right flex flex-col mx-4 lg:mt-10 xl:mt-20">
               <h1 className="text-2xl md:text-4xl font-extrabold font-pacifico text-white mb-12">
                 A que nos dedicamos?
               </h1>
@@ -57,7 +57,7 @@ function AboutUs() {
             </div>
           </div>
           <div>
-            <img src={icecream} className="block h-full"></img>
+            <img src={icecream} className="block md:h-full"></img>
           </div>
         </div>
         <img src={wavet} className="absolute top-0"></img>
@@ -80,7 +80,7 @@ function AboutUs() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-center  md:mr-4">
+          <div className="flex flex-col justify-center  md:mr-4 mb-10">
             <h1 className="text-3xl md:text-4xl py-2 font-extrabold font-pacifico text-center text-fuchsia-700 md:mb-8">
               Vision
             </h1>
