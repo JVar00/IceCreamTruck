@@ -1,32 +1,39 @@
+import icecream1 from "../assets/icecream1.jpg";
+import icecream2 from "../assets/icecream2.jpg";
+import icecream3 from "../assets/icecream3.jpg";
+import icecream4 from "../assets/icecream4.jpg";
+import icecream5 from "../assets/icecream5.jpg";
+import icecream6 from "../assets/icecream6.jpg";
+
 export default [
   {
-    title: "Ascenso del Pícaro",
-    likes: Math.floor(Math.random() * (50 - 0) + 0),
-    image: "https://bit.ly/3BQdTqk",
+    title: "Cono regular",
+    likes: 870,
+    image: icecream1,
   },
   {
-    title: "El fin de la locura",
-    likes: Math.floor(Math.random() * (50 - 0) + 0),
-    image: "https://bit.ly/3CQFPvv",
+    title: "Sundae",
+    likes: 1850,
+    image: icecream6,
   },
   {
-    title: "Un poder mayor",
-    likes: Math.floor(Math.random() * (50 - 0) + 0),
-    image: "https://bit.ly/3ERuyMd",
+    title: "Banana Split",
+    likes: 2500,
+    image: icecream3,
   },
   {
-    title: "2099: Oasis",
-    likes: Math.floor(Math.random() * (50 - 0) + 0),
-    image: "https://bit.ly/3CQKSwb",
+    title: "Cappuccino",
+    likes: 2400,
+    image: icecream5,
   },
   {
-    title: "2099: Oasis",
-    likes: Math.floor(Math.random() * (50 - 0) + 0),
-    image: "https://bit.ly/3CQKSwb",
+    title: "Paleta",
+    likes: 950,
+    image: icecream4,
   },
   {
-    title: "2099: Oasis",
-    likes: Math.floor(Math.random() * (50 - 0) + 0),
-    image: "https://bit.ly/3CQKSwb",
+    title: "Copa Sensilla",
+    likes: 1260,
+    image: icecream2,
   },
 ];

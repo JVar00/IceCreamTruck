@@ -4,7 +4,7 @@ import colon from "../../assets/colon.png";
 
 import styles from "./iceCream.module.css";
 
-const IceCream = ({ title, likes, order, image, price = "1000" }) => {
+const IceCream = ({ title, likes, order, image }) => {
   return (
     <div className={classNames([styles.wrapper, styles.wrapperAnime])}>
       <div className={styles.header}>
@@ -23,7 +23,7 @@ const IceCream = ({ title, likes, order, image, price = "1000" }) => {
             <span
               className={classNames([styles.counter, "group-hover:text-white"])}
             >
-              {price}
+              {likes}
             </span>
           </div>
         </div>

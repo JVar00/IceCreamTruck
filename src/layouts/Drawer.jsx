@@ -1,5 +1,4 @@
 import { NavButton } from "../components/NavItem";
-import Footer from "./Footer";
 
 function Drawer({ open, handleClose, handleOpen }) {
   return (
@@ -8,7 +7,7 @@ function Drawer({ open, handleClose, handleOpen }) {
         id="drawer-navigation"
         className={
           open
-            ? "md:hidden fixed z-40 top-0 h-screen p-10 py-20 overflow-y-auto w-80 bg-gradient-to-r to-pink-500 from-purple-400 transition-all duration-500 ease-in-out"
+            ? "md:hidden fixed z-40 top-0 h-screen p-10 py-20 overflow-y-auto w-70 bg-gradient-to-r to-pink-500 from-purple-400 transition-all duration-500 ease-in-out"
             : "hidden"
         }
         tabIndex="-1"
