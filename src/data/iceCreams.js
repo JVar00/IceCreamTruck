@@ -32,7 +32,7 @@ export default [
     image: icecream4,
   },
   {
-    title: "Copa Sensilla",
+    title: "Copa Sencilla",
     likes: 1260,
     image: icecream2,
   },

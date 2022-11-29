@@ -43,12 +43,12 @@ function AboutUs() {
       <div className="relative">
         <img src={waveb} className="absolute bottom-0"></img>
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="h-full bg-pinktruck py-32 md:py-60">
-            <div className="text-center md:text-right flex flex-col mx-4 lg:mt-10 xl:mt-20">
-              <h1 className="text-2xl md:text-4xl font-extrabold font-pacifico text-white mb-12">
+          <div className=" h-full bg-pinktruck">
+            <div className="text-center flex flex-col content-center md:text-right mx-4 py-32 md:pt-44 lg:pt-72 xl:pt-80">
+              <h1 className="text-xl lg:text-4xl font-extrabold font-pacifico mb-12 text-white ">
                 A que nos dedicamos?
               </h1>
-              <p className="text-md">
+              <p className="text-sm lg:text-md">
                 Nuestro servicio está enfocado en las heladerías, y el propósito
                 de este es facilitarles a los usuarios la adquisición del
                 producto, por medio ICE CREAM TRUCK (carro de helados), este es
@@ -57,7 +57,7 @@ function AboutUs() {
             </div>
           </div>
           <div>
-            <img src={icecream} className="block md:h-full"></img>
+            <img src={icecream} className="block md:h-auto"></img>
           </div>
         </div>
         <img src={wavet} className="absolute top-0"></img>
